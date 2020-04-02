@@ -29,7 +29,7 @@
   build:
     description: Build application with Release configuration
     executor:
-      name: windows/default
+      name: win/default
     steps:
       - checkout
       - run:
