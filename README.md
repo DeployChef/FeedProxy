@@ -2,7 +2,7 @@
 
 ## Сервис подписывается на очередь с одного контура и пушит их в очереди на других контурах.
 
-[![CircleCI Build Status](https://circleci.com/github/DeployChef/FeedProxy/tree/master.svg?style=shield)](https://circleci.com/github/DeployChef/FeedProxy/tree/master)
+[![CircleCI Build Status](https://circleci.com/gh/DeployChef/FeedProxy.svg?style=shield)](https://circleci.com/gh/DeployChef/FeedProxy)
 
 Конфигурация запуска осуществляется через конфигурационный файл:
 
