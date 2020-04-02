@@ -3,7 +3,7 @@
  orbs:
   win: circleci/windows@2.2.0
 
-jobs:
+ jobs:
   test:
     description: Setup and run application tests
     executor:
@@ -35,7 +35,7 @@ jobs:
       - run:
           name: "Build Application according to some given configuration"
           command: dotnet.exe build --configuration Release
-workflows:
+ workflows:
   test_and_build:
     jobs:
       - test
